@@ -5,8 +5,8 @@ import pytz
 import os
 
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")  # ✅ Gets token from Railway secrets
-GUILD_ID = 123456789012345678  # Replace with your actual Server ID
-CHANNEL_ID = 987654321098765432  # Replace with your Voice Channel ID
+GUILD_ID = 1328810752877793401  # Replace with your actual Server ID
+CHANNEL_ID = 1333862823935217685  # Replace with your Voice Channel ID
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
