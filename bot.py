@@ -11,7 +11,7 @@ CHANNEL_ID = 1333862823935217685  # Replace with your Voice Channel ID
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
 
-@tasks.loop(minutes=30)  # ✅ Updates every 30 minutes
+@tasks.loop(minutes=30)  # ✅ Updates every 30 minute
 async def update_time():
     try:
         guild = client.get_guild(GUILD_ID)
